@@ -8,7 +8,6 @@ func main() {
 	currentBranch := getCurrentBranch()
 
 	if currentBranch != "main" {
-		fmt.Println("Pushing code to the main branch...")
 		pushToMainBranch()
 	} else {
 		fmt.Println("Welcome to the performance testing tool k6..")
